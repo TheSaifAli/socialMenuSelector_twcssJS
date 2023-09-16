@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+li{
+    @apply flex justify-start items-center gap-2 hover:bg-gray-300 p-2 hover:rounded-md cursor-pointer hover:pl-5 transition-[padding_2s_linear] hover:transition
+}
+.hide{
+    @apply hidden;
+}
+.rotate {
+    @apply rotate-180 transition-[rotate_5s_ease];
+}
